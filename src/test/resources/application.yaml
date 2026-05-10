@@ -1,0 +1,18 @@
+spring:
+  azure-ai:
+    azure-openai-endpoint: https://test.openai.azure.com/
+    azure-openai-key: test-key-not-real
+    azure-deployment-name: test-deployment
+
+flight-tracker:
+  adsb-api:
+    base-url: https://opendata.adsb.fi/api/v2
+    timeout: 30s
+  geo-api:
+    base-url: http://ip-api.com/json
+  route-api:
+    base-url: https://api.adsbdb.com/v0
+  geocoding-api:
+    base-url: https://nominatim.openstreetmap.org
+  reverse-geocoding-api:
+    base-url: https://api-bdc.io

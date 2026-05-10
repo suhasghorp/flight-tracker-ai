@@ -1,0 +1,38 @@
+spring:
+  azure-ai:
+    azure-openai-endpoint: ${AZURE_OPENAI_ENDPOINT}
+    azure-openai-key: ${AZURE_OPENAI_KEY}
+    azure-deployment-name: gpt-4.1
+  application:
+    name: flight-tracker-ai
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+flight-tracker:
+  adsb-api:
+    base-url: https://opendata.adsb.fi/api/v2
+    timeout: 30s
+  geo-api:
+    base-url: http://ip-api.com/json
+  route-api:
+    base-url: https://api.adsbdb.com/v0
+  geocoding-api:
+    base-url: https://nominatim.openstreetmap.org
+  reverse-geocoding-api:
+    base-url: https://api-bdc.io
+  aviation-weather-api:
+    base-url: https://aviationweather.gov/api
+  faa-nas-api:
+    base-url: https://nasstatus.faa.gov/api
+  rate-limit:
+    requests-per-minute: 60
+
+logging:
+  level:
+    dev.example.flighttracker: DEBUG
+    org.springframework.ai: DEBUG
