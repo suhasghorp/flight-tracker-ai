@@ -10,7 +10,7 @@ function-calling LLM.
 > reporting airport within 200 nautical miles of your location.
 
 <!-- SCREENSHOT: top-level chat UI with the suggestion chips -->
-<!-- ![Main UI](docs/screenshots/main.png) -->
+![Main UI](docs/screenshots/main.png)
 
 ---
 
@@ -42,22 +42,17 @@ function-calling LLM.
 
 ## Screenshots
 
-<!-- Drop screenshot files into docs/screenshots/ and uncomment the lines below. -->
-
-### Chat UI
-<!-- ![Chat UI](docs/screenshots/chat-ui.png) -->
-
 ### "Near Me" — Aircraft within 20 nm
-<!-- ![Near Me](docs/screenshots/near-me.png) -->
+![Near Me](docs/screenshots/near-me.png)
 
 ### "Airports" — METAR / TAF / delays within 200 nm
-<!-- ![Airports](docs/screenshots/airports.png) -->
+![Airports](docs/screenshots/airports.png)
 
 ### Aircraft above a named city
-<!-- ![Above City](docs/screenshots/above-city.png) -->
+![Above City](docs/screenshots/above-city.png)
 
 ### Military / Emergency aircraft search
-<!-- ![Military](docs/screenshots/military.png) -->
+![Military](docs/screenshots/military.png)
 
 ---
 
